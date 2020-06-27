@@ -1,5 +1,5 @@
 study("MACD")
-fast = 12, slow = 26
+fast = 10, slow = 30
 fastMA = ema(close,fast)
 slowMA = ema(close,slow)
 macd = fastMA - slowMA
